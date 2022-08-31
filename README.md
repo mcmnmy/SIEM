@@ -94,16 +94,45 @@ Open a new tab and return to portal.azure.com and we will set up Sentinel. Click
 <img src="https://imgur.com/tSEChcN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Now we will log in to the Virtual Machine. <br/>
-<img src="https://imgur.com/d3yF3ft.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  <br/>
+Now we will log in to the Virtual Machine. Copy the Public IP Address.<br/>
+<img src="https://imgur.com/uwjVG2R.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  <br/>
 <br />
 <br />
-Copy the Public IP Address. Open Remote Desktop Connection. 
+Open Remote Desktop Connection. <br/>
+<img src="https://imgur.com/Ppzdhrb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  <br/>
 <br/>
 <br/>
+Use the Public IP Address to connect to the Virtual Machine. Use the login credentials you created to sign in.
+<img src="https://imgur.com/8esOOus.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  <br/>
+<br/>
+<br/>
+Once in the Virtual Machine, Open Event Viewer. Navigate to Security Logs. This will show your latest login.
+<img src="https://imgur.com/vnJ12ho.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  <br/>
+<br/>
+<br/>
+Double click the latest entry. You will see it shows I logged in with my account name and this current domain.
+<img src="https://imgur.com/aJ6isoL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  <br/>
+<br/>
+<br/>
+Double click the latest entry. You will see it shows I logged in with my account name and this current domain.
+<img src="https://imgur.com/aJ6isoL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  <br/>
+<br/>
+<br/>
+You'll notice there is no location info for where that login came from. https://ipgeolocation.io will allow for that:
+<img src="https://imgur.com/OPgajWM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  <br/>
 <br/>
 To be continued...
 <br/>
+<br/>
+<br/><br/>
+<br/><br/>
+<br/><br/>
+<br/><br/>
+<br/><br/>
+<br/><br/>
+<br/>
+I let a previous build with the same configurations run overnight. Here are the results after about 8 hours. You can see on the map the amount of attempts based on country. On the right screen, the VM, you can see multiple entries using different usernames to access my VM.
+<img src="https://imgur.com/kn709if.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  <br/>
 </p>
 
 <!--
