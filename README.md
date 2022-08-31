@@ -96,6 +96,9 @@ Open a new tab and return to portal.azure.com and we will set up Sentinel. Click
 <br />
 Now we will log in to the Virtual Machine. <br/>
 <img src="https://imgur.com/d3yF3ft.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  <br/>
+<br />
+<br />
+Copy the Public IP Address. Open Remote Desktop Connection. 
 </p>
 
 <!--
