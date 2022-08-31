@@ -99,6 +99,11 @@ Now we will log in to the Virtual Machine. <br/>
 <br />
 <br />
 Copy the Public IP Address. Open Remote Desktop Connection. 
+<br/>
+<br/>
+<br/>
+To be continued...
+<br/>
 </p>
 
 <!--
